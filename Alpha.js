@@ -1364,7 +1364,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                if (!text) return replay(`Example : ${prefix + command} packname|author`)
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
-          reply(`Exif Has Been Successfully Changed to\n\n🎭 Packname : ${global.packname}\n🎭 Author : ${global.author}`)
+          reply(`Exif Has Been Successfully Changed to\n\n► Packname : ${global.packname}\n🎭 Author : ${global.author}`)
             }
             break
 	case 'ban': {
@@ -1615,14 +1615,14 @@ teks_vote = `*❦VOTE ❦*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌ ALPHA VOTING
+┌ AZHILBOT VOTING
 │ 
 ┃║🎭  Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┃║🎭  ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌ ALPHA VOTING
+┌ AZHILBOT VOTING
 │ 
 ┃║🎭  Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┃║🎭  ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1714,8 +1714,8 @@ break
                 reply(`${GojoMdNx.user.name} Has Been Unmuted In This Group!`)
                 } else {
                  let buttons = [
-                        { buttonId: 'mute on', buttonText: { displayText: 'ALPHA MUTE' }, type: 1 },
-                        { buttonId: 'mute off', buttonText: { displayText: 'ALPHA UNMUTE' }, type: 1 }
+                        { buttonId: 'mute on', buttonText: { displayText: 'AZHILBOT MUTE' }, type: 1 },
+                        { buttonId: 'mute off', buttonText: { displayText: 'AZHILBOT UNMUTE' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Mute Bot`, GojoMdNx.user.name, m)
                 }
@@ -1776,7 +1776,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `❦ALPHA-SATORU HERE🎉 ❦\n\n${text}`
+                      let txt = `❦AZHILBOT-SATORU HERE🎉 ❦\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1810,7 +1810,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `❦ALPHA-SATORU HERE 🎉❦\n\n${text}`
+                      let txt = `❦AZHIL-MD HERE 🎉❦\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -2064,7 +2064,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: images },
-                    caption: `*------- ALPHA IMAGE SEARCH -------*
+                    caption: `*------- AZHI IMAGE SEARCH -------*
 🎭 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
                     footer: GojoMdNx.user.name,
@@ -2115,7 +2115,7 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-         🎭ᴀʟᴘʜᴀ ʙᴏᴛ-ᴍᴅ ᴇᴅɪᴛɪᴏɴ🎭         
+          *Azhil Botz*        
 🎭 Title : ${anu.title}
 🎭 Duration : ${anu.timestamp}
 🎭 Viewes : ${anu.views}
@@ -3332,13 +3332,13 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                 case 'command': case 'menu':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Hi ${pushname}`,
-                    description: `           🎭  Please Choose The Menu 🎭\nALPHA MD IS AN MODIFIED VERSION OF THE GOJOSENSEI BOT .THANK FOR USING ALPHA MD.THIS IS MULTIFUNCTIONAL WHATSAPP BOT SO DONT USE BOT FOR BAD THINGS\n\n`,
+                    title: `Hi ${pushname} Saya Adalah Bot`,
+                    description: `Saya Akan Membantu Anda\nJika Ada bug Bisa Langsung Lapor Owner`,
                     buttonText: "Menu",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Main Features",
+								"title": "Main Menu",
 								"rows": [
 									{
 										"title": "Main Menu",
@@ -3449,7 +3449,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://darkalphaxteam/Queen-Bixby-MD\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`Sc Private!`)
             }
             break
 
@@ -3847,7 +3847,7 @@ break
                 let buttonMessage = {
                     image: fs.readFileSync('./GojoMedia/ttg.jpg'),
                     caption: `═══════════════════
-     *🎭ᴀʟᴘʜᴀ ʙᴏᴛ-ᴍᴅ ᴇᴅɪᴛɪᴏɴ🎭* 
+     *Azhil Botz* 
 ═══════════════════
 RUNTIME : ${runtime(process.uptime())}
 BOT NAME : ${global.botname}
@@ -3872,6 +3872,7 @@ Thanks to Me ( Achi Fernando)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project 95% Credits goes to them ,in this script)
 And Again Me (Achintha) 🎭 Who Helped Assemble This Script !!!`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
+
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return reply(mess.owner)
@@ -3951,3 +3952,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+
