@@ -3872,6 +3872,221 @@ Thanks to Me ( Achi Fernando)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project 95% Credits goes to them ,in this script)
 And Again Me (Achintha) 🎭 Who Helped Assemble This Script !!!`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
+case 'allmenu':
+var unicorn = await getBuffer(picak+'allmenu')
+await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
+┏━❦${botname} ❦━━⭓ 
+┃╔═══✪❦DATABASE ❦	        
+┃║🎭  ${prefix}setcmd
+┃║🎭  ${prefix}listcmd
+┃║🎭  ${prefix}delcmd
+┃║🎭  ${prefix}lockcmd
+┃║🎭  ${prefix}addmsg
+┃║🎭  ${prefix}listmsg
+┃║🎭  ${prefix}getmsg
+┃║🎭  ${prefix}delmsg
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔═✪❦MAIN ❦
+┃║🎭  ${prefix}alive
+┃║🎭  ${prefix}script
+┃║🎭  ${prefix}speedtest
+┃║🎭  ${prefix}ping
+┃║🎭  ${prefix}owner
+┃║🎭  ${prefix}menu
+┃║🎭  ${prefix}delete
+┃║🎭  ${prefix}chatinfo
+┃║🎭  ${prefix}quoted
+┃║🎭  ${prefix}listpc
+┃║🎭  ${prefix}listgc
+┃║🎭  ${prefix}donate
+┃║🎭  ${prefix}report [bug]
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔═✪❦GROUP ❦	        
+┃║🎭 ${prefix}grouplink
+┃║🎭 ${prefix}ephemeral [option]
+┃║🎭 ${prefix}setgcpp [image]
+┃║🎭 ${prefix}setname [text]
+┃║🎭 ${prefix}setdesc [text]
+┃║🎭 ${prefix}group [text]
+┃║🎭 ${prefix}editinfo [option]
+┃║🎭 ${prefix}add [user]
+┃║🎭 ${prefix}kick [reply/tag]
+┃║🎭 ${prefix}hidetag [text]
+┃║🎭 ${prefix}tagall [text]
+┃║🎭 ${prefix}antilink [on/off]
+┃║🎭 ${prefix}mute [on/off]
+┃║🎭 ${prefix}promote [reply/tag]
+┃║🎭 ${prefix}demote [reply/tag]
+┃║🎭 ${prefix}vote
+┃║🎭 ${prefix}devote
+┃║🎭 ${prefix}upvote
+┃║🎭 ${prefix}checkvote
+┃║🎭 ${prefix}delvote
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔═✪❦RPG ❦	        
+┃║🎭 ${prefix}hunting
+┃║🎭 ${prefix}mining
+┃║🎭 ${prefix}heal
+┃║🎭 ${prefix}limituser
+┃║🎭 ${prefix}profile
+┃║🎭 ${prefix}inventory
+┃║🎭 ${prefix}leaderboard
+┃║🎭 ${prefix}buy [option]
+┃║🎭 ${prefix}sell [option]
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔═✪❦OWNER ❦	        
+┃║🎭 ${prefix}grouplink
+┃║🎭 ${prefix}ephemeral [option]
+┃║🎭 ${prefix}setgcpp [image]
+┃║🎭 ${prefix}setname [text]
+┃║🎭 ${prefix}setdesc [text]
+┃║🎭 ${prefix}group [text]
+┃║🎭 ${prefix}editinfo [option]
+┃║🎭 ${prefix}add [user]
+┃║🎭 ${prefix}kick [reply/tag]
+┃║🎭 ${prefix}hidetag [text]
+┃║🎭 ${prefix}tagall [text]
+┃║🎭 ${prefix}antilink [on/off]
+┃║🎭 ${prefix}mute [on/off]
+┃║🎭 ${prefix}promote [reply/tag]
+┃║🎭 ${prefix}demote [reply/tag]
+┃║🎭 ${prefix}vote
+┃║🎭 ${prefix}devote
+┃║🎭 ${prefix}upvote
+┃║🎭 ${prefix}checkvote
+┃║🎭 ${prefix}delvote
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔═✪❦FUN ❦	        
+┃║🎭  ${prefix}how [text
+┃║🎭  ${prefix}when [text]
+┃║🎭  ${prefix}is [text]
+┃║🎭  ${prefix}what [text]
+┃║🎭  ${prefix}can [text]
+┃║🎭  ${prefix}rate [text]
+┃║🎭  ${prefix}wangy [text]
+┃║🎭  ${prefix}beautifulcheck [tag]
+┃║🎭  ${prefix}awesomecheck [tag]
+┃║🎭  ${prefix}prettycheck [tag]
+┃║🎭  ${prefix}lesbiancheck [tag]
+┃║🎭  ${prefix}gaycheck [tag]
+┃║🎭  ${prefix}cutecheck [tag]
+┃║🎭  ${prefix}uglycheck [tag]
+┃║🎭  ${prefix}hornycheck [tag]
+┃║🎭  ${prefix}charactercheck [tag]
+┃║🎭  ${prefix}lovelycheck [tag]
+┃║🎭  ${prefix}couple
+┃║🎭  ${prefix}mysoulmate
+┃║🎭  ${prefix}hot
+┃║🎭  ${prefix}sexy
+┃║🎭  ${prefix}kind
+┃║🎭  ${prefix}handsome
+┃║🎭  ${prefix}beautiful
+┃║🎭  ${prefix}cute
+┃║🎭  ${prefix}pretty
+┃║🎭  ${prefix}lesbian
+┃║🎭  ${prefix}noob
+┃║🎭  ${prefix}bastard
+┃║🎭  ${prefix}foolish
+┃║🎭  ${prefix}nerd
+┃║🎭  ${prefix}asshole
+┃║🎭  ${prefix}gay
+┃║🎭  ${prefix}smart
+┃║🎭  ${prefix}stubble
+┃║🎭  ${prefix}dog
+┃║🎭  ${prefix}horny
+┃║🎭  ${prefix}cunt
+┃║🎭  ${prefix}wibu
+┃║🎭  ${prefix}tictactoe
+┃║🎭  ${prefix}delttt
+┃║🎭  ${prefix}guess [option]
+┃║🎭  ${prefix}math [mode]
+┃║🎭  ${prefix}suitpvp [tag]
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔═✪❦DOWNLOADER ❦	        
+┃║🎭 ${prefix}ytmp3 [url|quality]
+┃║🎭 ${prefix}ytmp4 [url|quality]
+┃║🎭 ${prefix}getmusic [yt link]
+┃║🎭 ${prefix}getvideo [yt link]
+┃║🎭 ${prefix}umma [query]
+┃║🎭 ${prefix}joox [query]
+┃║🎭 ${prefix}soundcloud [url]
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔══✪❦SEARCHER ❦	        
+┃║🎭 ${prefix}play [query]
+┃║🎭 ${prefix}song [query]
+┃║🎭 ${prefix}yts [query]
+┃║🎭 ${prefix}google [query]
+┃║🎭 ${prefix}gimage [query]
+┃║🎭 ${prefix}pinterest [query]
+┃║🎭 ${prefix}wallpaper [query]
+┃║🎭 ${prefix}wikimedia [query]
+┃║🎭 ${prefix}ytsearch [query]
+┃║🎭 ${prefix}ringtone [query]
+┃║🎭 ${prefix}webtoon [query]
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔══✪❦RANDOM ❦	        
+┃║🎭 ${prefix}coffee
+┃║🎭 ${prefix}animequote (indo)
+┃║🎭 ${prefix}couplepp
+┃╚═════════════✪
+┗━━❦
+
+┏━❦${botname} ❦━━⭓ 
+┃╔✪❦RANDOM ANIME ❦	        
+┃║🎭 ${prefix}loli
+┃║🎭 ${prefix}bully
+┃║🎭 ${prefix}cuddle
+┃║🎭 ${prefix}cry
+┃║🎭 ${prefix}hug
+┃║🎭 ${prefix}awoo
+┃║🎭 ${prefix}kiss
+┃║🎭 ${prefix}lick
+┃║🎭 ${prefix}pat
+┃║🎭 ${prefix}smug
+┃║🎭 ${prefix}bonk
+┃║🎭 ${prefix}yeet
+┃║🎭 ${prefix}blush
+┃║🎭 ${prefix}smile
+┃║🎭 ${prefix}wave
+┃║🎭 ${prefix}highfive
+┃║🎭 ${prefix}handhold
+┃║🎭 ${prefix}nom
+┃║🎭 ${prefix}glomp
+┃║🎭 ${prefix}bite
+┃║🎭 ${prefix}slap
+┃║🎭 ${prefix}kill
+┃║🎭 ${prefix}happy
+┃║🎭 ${prefix}wink
+┃║🎭 ${prefix}poke
+┃║🎭 ${prefix}dance
+┃║🎭 ${prefix}cringe
+┃╚═════════════✪
+┗━━❦`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
+break
 
             default:
                 if (budy.startsWith('=>')) {
@@ -3952,4 +4167,8 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+
+
+
+
 
