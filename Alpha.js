@@ -3873,7 +3873,6 @@ Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts r
 And Again Me (Achintha) 🎭 Who Helped Assemble This Script !!!`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'allmenu':
-var unicorn = await getBuffer(picak+'allmenu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━❦${botname} ❦━━⭓ 
 ┃╔═══✪❦DATABASE ❦	        
